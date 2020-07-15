@@ -11,17 +11,3 @@ tflite_quant_model = converter.convert()
 # Save the converted model to TF lite file
 with open("name-the-quantized-model-here.tflite", "wb") as output_file:
     output_file.write(tflite_quant_model)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -29,7 +29,7 @@ wavpath = data_df['filename'].tolist()
 
 def cal_deltas(X_in):
     X_out = (X_in[:, 2:, :] - X_in[:, :-2, :]) / 10.0
-    X_out = X_out[:, 1:-1, :] + (X_in[:, 4:, :]-X_in[:,:-4,:]) / 5.0
+    X_out = X_out[:, 1:-1, :] + (X_in[:, 4:, :] - X_in[:,:-4,:]) / 5.0
     return X_out
 
 
@@ -46,7 +46,7 @@ for i in range(len(wavpath)):
     
     deltas = cal_deltas(feat_data)
     deltas_deltas = cal_deltas(deltas)
-    feat_data = np.concatenate((feat_data[:,4:-4,:], deltas[:,2:-2,:], deltas_deltas), axis=2)
+    feat_data = np.concatenate((feat_data[:, 4:-4, :], deltas[:, 2:-2, :], deltas_deltas), axis=2)
 
     feature_data = {'feat_data': feat_data,}
 
