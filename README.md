@@ -1,7 +1,9 @@
 # DCASE2020_task1
 
 
-Under building
+Under building. (Plan to release in July 2020)
+
+Georgia Tech ECE, Tecent AI Lab, USTC, Univeristy of Enna
 
 ## Task 1a
 
