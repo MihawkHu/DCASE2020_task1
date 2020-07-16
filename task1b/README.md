@@ -5,9 +5,9 @@
 Step Notes our team member [YuanJun (Max) Zhao](zhaoyj1122).
 
 ```bash
-eval.py       ## For testing the original keras model, which is saved as .hdf5 format. (This is an early version. Cropping is used to make sure the size of the features in training and evaluation sets is the same.)
-model_trans.py ## For quantizing the keras model to TF lite model.
-interpreter.py ## For testing the TF Lite model, which is saved as .tflite format.
+python eval.py       ## For testing the original keras model, which is saved as .hdf5 format. (This is an early version. Cropping is used to make sure the size of the features in training and evaluation sets is the same.)
+python model_trans.py ## For quantizing the keras model to TF lite model.
+python interpreter.py ## For testing the TF Lite model, which is saved as .tflite format.
 ```
 
 STEP1: Put the trained keras model in the folder;
