@@ -12,7 +12,7 @@ Thank sincerely thank all the team members and advisors from [Georgia Tech ECE](
 
 | System      | Description | Dev Acc.     | Eval Acc. |
 | :---        |    :----:   |      :----:   |         ---: |
-| Baseline      |  ResNet     | 54.1%   | 51.4%|
+| Baseline      |  CNNs     | 54.1%   | 51.4%|
 |   Two-stage acoustic scene classification (ours) | Ensemble        | 81.9%      | 76.2%|
 
 
