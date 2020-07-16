@@ -4,12 +4,11 @@
 
 - Prerequisite
 
-```bash
-CUDA 10.2 (for tensorflow 2.2)
-tensorflow 2.2
-```
 
-Install tensorflow 2.2
+CUDA 10.2 (for tensorflow 2.2) and tensorflow 2.2
+
+
+- Install tensorflow 2.2
 
 ```bash
 pip install --upgrade pip
