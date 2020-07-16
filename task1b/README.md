@@ -2,6 +2,21 @@
 
 ### Tensorflow 2.2 compression
 
+- Prerequisite
+
+```bash
+CUDA 10.2 (for tensorflow 2.2)
+tensorflow 2.2
+```
+
+```bash
+! pip uninstall -y tensorflow
+! pip install -q tf-nightly
+! pip install -q tensorflow-model-optimization
+```
+
+- Step Note
+
 Step Notes our team member [YuanJun (Max) Zhao](zhaoyj1122).
 
 ```bash
