@@ -19,7 +19,7 @@ pip install -q tensorflow-model-optimization
 
 - Step Note
 
-Step Notes are from our team member [YuanJun (Max) Zhao](zhaoyj1122).
+Step Notes are from our team member [YuanJun (Max) Zhao](https://github.com/zhaoyj1122).
 
 ```bash
 eval.py       ## For testing the original keras model, which is saved as .hdf5 format. (This is an early version. Cropping is used to make sure the size of the features in training and evaluation sets is the same.)
