@@ -13,7 +13,7 @@ Thank sincerely thank all the team members from [Georgia Tech ECE](https://chl.e
 | System      | Description | Dev Acc.     |
 | :---        |    :----:   |          ---: |
 | Baseline      |  ResNet     | 51.4%   |
-|   Two-stage acoustic scene (ours) classification | Ensemble        | 81.9%      | 
+|   Two-stage acoustic scene classification (ours) | Ensemble        | 81.9%      | 
 
 ## Task 1b
 
