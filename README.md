@@ -15,6 +15,13 @@ Thank sincerely thank all the team members and advisors from [Georgia Tech ECE](
 | Baseline      |  ResNet     | 54.1%   | 51.4%|
 |   Two-stage acoustic scene classification (ours) | Ensemble        | 81.9%      | 76.2%|
 
+
+```bash
+git clone https://github.com/MihawkHu/DCASE2020_task1/`
+
+cd DCASE2020_task1/task1a
+```
+
 ## Task 1b
 
 ```bash
