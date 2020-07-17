@@ -36,7 +36,7 @@ If this work helps or has been used in your research, please consider to cite th
 
 https://arxiv.org/abs/2007.08389
 
-```
+```bib
 @misc{hu2020devicerobust,
     title={Device-Robust Acoustic Scene Classification Based on Two-Stage Categorization and Data Augmentation},
     author={Hu Hu and Chao-Han Huck Yang and Xianjun Xia and Xue Bai and Xin Tang and Yajian Wang and Shutong Niu and Li Chai and Juanjuan Li and Hongning Zhu and Feng Bao and Yuanjun Zhao and Sabato Marco Siniscalchi and Yannan Wang and Jun Du and Chin-Hui Lee},
