@@ -32,7 +32,7 @@ cd DCASE2020_task1/task1b
 
 ## Reference
 
-If this work helps or has been used in your research, please consider to cite the paper below.
+If this work helps or has been used in your research, please consider to cite the paper below. Thank you!
 
 https://arxiv.org/abs/2007.08389
 
