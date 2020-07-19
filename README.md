@@ -17,7 +17,7 @@ We sincerely thank all the team members and advisors from [Georgia Tech ECE](htt
 
 
 ```bash
-git clone https://github.com/MihawkHu/DCASE2020_task1/`
+git clone https://github.com/MihawkHu/DCASE2020_task1/
 
 cd DCASE2020_task1/task1a
 ```
