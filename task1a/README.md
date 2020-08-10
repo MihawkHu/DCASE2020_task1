@@ -1,7 +1,9 @@
 # DCASE2020_task1 (Under building)
 
 
-Under building. (Plan to release in **Aug 15th 2020**)
+Under building. 
+
+# (Plan to release in **Aug 17th 2020**)
 
 This is an implementation of DCASE 2020 **Task 1a** and **Task 1b** on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020. [Technical Report](https://arxiv.org/abs/2007.08389).
 
