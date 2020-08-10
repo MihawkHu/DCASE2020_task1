@@ -1,5 +1,6 @@
-# DCASE2020_task1 (Under building, Plan to release in August 2020)
+# DCASE2020_task1 (Under building, Plan to release in August 17th 2020)
 
+Note - we plan to have major release in Aug. 17th 2020. Thank you for your interests. 
 
 Under building.
 
