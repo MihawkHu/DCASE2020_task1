@@ -16,15 +16,12 @@ import pandas as pd
 
 num_freq_bin = 128
 num_classes = 3
-crop_length = 400
-
 
 val_csv = 'data_2020/evaluation_setup/fold1_evaluate.csv'
 feat_path = 'features/logmel128_scaled_d_dd/'
 model_path = '../pretrained_models/smallfcnn-model-0.9618-quantized.tflite'
 data_val, y_val = load_data_2020(feat_path, val_csv, num_freq_bin, 'logmel')
 y_val_onehot = tf.keras.utils.to_categorical(y_val, num_classes)
-data_val = data_val[:, :, 0:crop_length, :]
 print(data_val.shape)
 print(y_val.shape)
 
