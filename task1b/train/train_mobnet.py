@@ -48,7 +48,7 @@ sample_num = len(open(train_csv, 'r').readlines()) - 1
 data_val, y_val = load_data_2020(feat_path, val_csv, num_freq_bin, 'logmel')
 y_val = keras.utils.to_categorical(y_val, num_classes)
 
-model = model_mobnet(NumClasses, input_shape=[num_freq_bin, num_time_bin, 3*num_audio_channels], num_filters=24, wd=1e-3)
+model = model_mobnet(num_classes, input_shape=[num_freq_bin, num_time_bin, 3*num_audio_channels], num_filters=24, wd=1e-3)
 
 model.compile(loss='categorical_crossentropy',
               optimizer = SGD(lr=max_lr,decay=0, momentum=0.9, nesterov=False),
