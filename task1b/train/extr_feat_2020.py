@@ -17,7 +17,7 @@ sr = 48000
 duration = 10
 num_freq_bin = 128
 num_fft = 2048
-hop_length = int(num_freq_bin / 2)
+hop_length = int(num_fft / 2)
 num_time_bin = int(np.ceil(duration * sr / hop_length))
 num_channel = 2
 
@@ -37,7 +37,7 @@ for i in range(len(wavpath)):
     stereo, fs = sound.read(file_path + wavpath[i], stop=duration*sr)
     logmel_data = np.zeros((num_freq_bin, num_time_bin, num_channel), 'float32')
     for ch in range(num_channel):
-        logmel_data[:,:,ch]= librosa.feature.melspectrogram(stereo[:,ch], sr=sr, n_fft=num_fft, hop_length=HopLength, n_mels=num_freq_bin, fmin=0.0, fmax=sr/2, htk=True, norm=None)
+        logmel_data[:,:,ch]= librosa.feature.melspectrogram(stereo[:,ch], sr=sr, n_fft=num_fft, hop_length=hop_length, n_mels=num_freq_bin, fmin=0.0, fmax=sr/2, htk=True, norm=None)
 
     logmel_data = np.log(logmel_data+1e-8)
     
