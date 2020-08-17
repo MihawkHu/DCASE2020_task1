@@ -1,4 +1,4 @@
-### Data augmentation by audio based methods
+# Data augmentation by audio based methods
 
 Four methods are coverred in this foloder:  
 * change speed (time)
@@ -6,7 +6,7 @@ Four methods are coverred in this foloder:
 * add random noise (noise)
 * mix audio files from the same class (add)  
 
-#### How to use
+## How to use
 To generate augmented features, please use `gen_extr_feat_2020_*.py`.   
 
 The given four different scripts will load, augment, and extrat features of original data. Each time runnning will generate one time (~13k) of original data.  
