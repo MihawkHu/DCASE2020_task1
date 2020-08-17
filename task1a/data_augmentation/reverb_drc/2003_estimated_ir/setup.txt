@@ -1,0 +1,78 @@
+Room Recordings
+
+Description:
+
+
+Date and time: 2014-01-21 12:10
+
+Room: B5-108
+- width: 7.34 m
+- length: 8.09 m
+- height: 2.87 m
+- temperature: 20 C
+
+Configuration number: 2003
+
+Loudspeaker position (width, length, height):
+DirLS Ch. 08 (2.000 m, 6.450 m, 1.300 m)
+
+MIC positions (width, length, height):
+orth_1X Ch. 01 (6.502 m, 2.414 m, 1.011 m)
+orth_2X Ch. 02 (6.537 m, 2.379 m, 1.011 m)
+orth_3X Ch. 03 (6.573 m, 2.344 m, 1.011 m)
+orth_4X Ch. 04 (6.608 m, 2.308 m, 1.011 m)
+orth_5X Ch. 05 (6.644 m, 2.273 m, 1.011 m)
+orth_6X Ch. 06 (6.679 m, 2.238 m, 1.011 m)
+orth_7X Ch. 07 (6.714 m, 2.202 m, 1.011 m)
+orth_1Y Ch. 09 (6.501 m, 2.585 m, 1.011 m)
+orth_2Y Ch. 10 (6.537 m, 2.620 m, 1.011 m)
+orth_3Y Ch. 11 (6.572 m, 2.656 m, 1.011 m)
+orth_4Y Ch. 12 (6.607 m, 2.691 m, 1.011 m)
+orth_5Y Ch. 13 (6.643 m, 2.726 m, 1.011 m)
+orth_6Y Ch. 14 (6.678 m, 2.762 m, 1.011 m)
+orth_7Y Ch. 15 (6.714 m, 2.797 m, 1.011 m)
+orth_1Z Ch. 17 (6.440 m, 2.477 m, 1.056 m)
+orth_2Z Ch. 18 (6.440 m, 2.477 m, 1.106 m)
+orth_3Z Ch. 19 (6.440 m, 2.477 m, 1.156 m)
+orth_4Z Ch. 20 (6.440 m, 2.477 m, 1.206 m)
+orth_5Z Ch. 21 (6.440 m, 2.477 m, 1.256 m)
+orth_6Z Ch. 22 (6.440 m, 2.477 m, 1.306 m)
+orth_7Z Ch. 23 (6.440 m, 2.477 m, 1.356 m)
+single_mic Ch. 24 (1.600 m, 3.410 m, 1.285 m)
+
+Dummy MIC position (width, length, height):
+dummy_mic Ch. 16 (5.000 m, 0.200 m, 1.000 m)
+
+Sound Pressure Levels (SPL):
+SPL w. source on: 85 dB
+SPL w. source off: 0 dB
+
+Sample rate: 48000 Hz
+
+Input audio:
+artificial/5s_silence_48kHz
+artificial/exp_swept_sinus_10Hz_24kHz
+artificial/harm_sinus_48kHz
+artificial/mls16_48kHz
+artificial/pink_noise_48kHz
+artificial/sinus_tones_48kHz
+artificial/wgn_48kHz
+music/anechoic/BassFlute.ff.C6Db6
+music/anechoic/Guitar.ff.sulB.B3
+music/anechoic/Violin.arco.mf.sulA.A4B4.stereo
+music/EBU_SQAM/16_clarinet
+music/EBU_SQAM/21_trumpet
+music/EBU_SQAM/36_xylophone
+music/EBU_SQAM/69_abba
+speech/anechoic_tsp/CA02_03
+speech/anechoic_tsp/FA03_09
+speech/anechoic_tsp/MD24_04
+speech/EBU_SQAM/44_soprano
+speech/EBU_SQAM/48_quartet
+speech/EBU_SQAM/50_male_speech_english
+
+Latencies:
+- Suggested Play: 0.01161 s
+- Actual Play: 0.010667 s
+- Suggested Rec: 0.01161 s
+- Actual Rec: 0.010667 s
