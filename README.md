@@ -36,10 +36,13 @@ Tested on [DCASE 2020 task 1b development data set](http://dcase.community/chall
 ## How to use
 
 ### Task 1a
-Please refer to the `README.md` in `./task1a` for detailed instructions.
+Please refer to the `README.md` in `./task1a/` for detailed instructions.
 
 ### Task 1b
-Please refer to the `README.md` in `./task1b` for detailed instructions.
+Please refer to the `README.md` in `./task1b/` for detailed instructions.
+
+### Pre-trained models
+Pre-trained models are provided in `./task1a/3class/pretrained_models/`, `task1a/10class/pretrained_models/`, and `./task1b/pretrained_models/`. You can get reported results by directly evaluate pre-trained models.
 
 
 ## Reference
