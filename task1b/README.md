@@ -22,21 +22,21 @@ Tested on [DCASE 2020 task 1b development data set](http://dcase.community/chall
 
 #### Training models
 To train Mobnet, please run
-> \$ cd train
-> \$ python train_mobnet.py
+> \$ cd train  
+> \$ python train_mobnet.py  
 
 To train small-FCNN, please run
-> \$ cd train
-> \$ python train_smallfcnn.py
+> \$ cd train  
+> \$ python train_smallfcnn.py  
 
 #### Quantization
 To compress well-trained model by quantization, please run
-> \$ cd quantization
-> \$ python model_trans.py
+> \$ cd quantization  
+> \$ python model_trans.py  
 
 #### Evaluation
 To evaluate trained models and quantized models, please run
-> \$ cd eval
+> \$ cd eval  
 > \$ python eval_original.py  \# evaluate original model  
 > \$ python eval_quantized.py  \# evaluate quantized model  
 > \$ python eval_quantized_fusion_LR.py  \# evaluate two fusioned models by logistic regression strategy  
