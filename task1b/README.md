@@ -1,25 +1,12 @@
-## Task 1b Readme
+# DCASE2020 task 1b -- Low-Complexity Acoustic Scene Classification
 
-### Tensorflow 2.2 compression
-
-- Prerequisite
+## Introduction
 
 
-CUDA 10.2 (for tensorflow 2.2) and tensorflow 2.2
+## Experimental results 
 
 
-- Install tensorflow 2.2
-
-```bash
-pip install --upgrade pip
-pip uninstall -y tensorflow
-pip install -q tf-nightly
-pip install -q tensorflow-model-optimization
-```
-
-- Step Note
-
-Step Notes are from our team member [YuanJun (Max) Zhao](https://github.com/zhaoyj1122).
+## How to use
 
 ```bash
 eval.py       ## For testing the original keras model, which is saved as .hdf5 format. (This is an early version. Cropping is used to make sure the size of the features in training and evaluation sets is the same.)
@@ -34,6 +21,4 @@ STEP2: Use eval.py to test the keras model on validation/evaluation set;
 STEP3: Use model_trans.py to apply post-training quantization on the original keras model;
 
 STEP4: Use interpreter.py to test the quantized model (.tflite file) on validation/evaluation set. Resultes can be saved in a csv file. 
-
-### Colab compression
 

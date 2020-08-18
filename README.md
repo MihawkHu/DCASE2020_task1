@@ -1,8 +1,6 @@
-# DCASE2020_task1 (Under building, Plan to release in August 17th 2020)
+# DCASE2020_task1 (Under building)
 
-Note - we plan to have a major release in Aug. 17th 2020. Thank you for your interests. 
-
-Under building.
+Note: Under building.
 
 This is an implementation of DCASE 2020 **Task 1a** and **Task 1b** on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020. [Technical Report](https://arxiv.org/abs/2007.08389).
 
@@ -35,8 +33,6 @@ cd DCASE2020_task1/task1b
 
 If this work helps or has been used in your research, please consider to cite the paper below. Thank you!
 
-https://arxiv.org/abs/2007.08389
-
 ```bib
 @misc{hu2020devicerobust,
     title={Device-Robust Acoustic Scene Classification Based on Two-Stage Categorization and Data Augmentation},
@@ -47,3 +43,6 @@ https://arxiv.org/abs/2007.08389
     primaryClass={eess.AS}
 }
 ```
+
+## Acknowledgements
+Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). 
