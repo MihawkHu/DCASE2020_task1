@@ -20,7 +20,7 @@ Tested on [DCASE 2020 task 1a development data set](http://dcase.community/chall
 
 ## How to use
 
-#### Model training
+### Model training
 To train 3-class FCNN, please run
 > \$ cd 3class/fcnn    
 > \$ python train_fcnn.py    
@@ -41,7 +41,7 @@ To train 10-class fsFCNN, please run
 > \$ cd 10class/fsFCNN  
 > \$ python train_fsfcnn.py  
 
-#### Data augmentation 
+### Data augmentation 
 We have totally 9 data augmentation methods used in task 1a:
 1 Mixup.
 2 Random cropping.
@@ -56,7 +56,7 @@ We have totally 9 data augmentation methods used in task 1a:
 Method 1, 2, 3 do not generate extra data so it's implementation in the training phase. Method 4 is in the folder `./data_augmentation/spectrum_correction`. Method 5 is in the folder `./data_augmentation/reverb_drc`. Method 6, 7, 8, 9 are in the folder `./data_augmentation/audio_based`. Please refer to the `README.md` file in each folder for usage instructions.
 
 
-#### Evaluation
+### Evaluation
 To evaluate 3-class fusioned classifiers, please run
 > \$ cd 3class  
 > \$ python eval_fusion_vote_3class.py  

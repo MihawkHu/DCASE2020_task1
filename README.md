@@ -1,4 +1,4 @@
-# DCASE2020_task1
+# DCASE2020 Task1
 [Task1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) | [Task1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) | [Arxiv](https://arxiv.org/abs/2007.08389)
 
 
@@ -9,7 +9,7 @@ We sincerely thank all the team members and advisors from [Georgia Tech ECE](htt
 
 
 ## Experimental results
-#### Task 1a
+### Task 1a
 Tested on [DCASE 2020 task 1a development data set](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a). The train-test split way follows the official recomendation.  
 
 | System       |   Dev Acc. | 
@@ -21,7 +21,7 @@ Tested on [DCASE 2020 task 1a development data set](http://dcase.community/chall
 |  Two-stage ensemble system  |  81.9%   | 
 
 
-#### Task 1b
+### Task 1b
 Tested on [DCASE 2020 task 1b development data set](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b). The train-test split way follows the official recomendation.  
 
 | System       |   Dev Acc. (size)<br> Original model| Dev Acc. (size) <br> Quantization | 
@@ -35,10 +35,10 @@ Tested on [DCASE 2020 task 1b development data set](http://dcase.community/chall
 
 ## How to use
 
-#### Task 1a
+### Task 1a
 Please refer to the `README.md` in `./task1a` for detailed instructions.
 
-#### Task 1b
+### Task 1b
 Please refer to the `README.md` in `./task1b` for detailed instructions.
 
 

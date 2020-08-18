@@ -20,7 +20,7 @@ Tested on [DCASE 2020 task 1b development data set](http://dcase.community/chall
 
 ## How to use
 
-#### Model training
+### Model training
 To train Mobnet, please run
 > \$ cd train  
 > \$ python train_mobnet.py  
@@ -29,12 +29,12 @@ To train small-FCNN, please run
 > \$ cd train  
 > \$ python train_smallfcnn.py  
 
-#### Quantization
+### Quantization
 To compress well-trained model by quantization, please run
 > \$ cd quantization  
 > \$ python model_trans.py  
 
-#### Evaluation
+### Evaluation
 To evaluate trained models and quantized models, please run
 > \$ cd eval  
 > \$ python eval_original.py  \# evaluate original model  
