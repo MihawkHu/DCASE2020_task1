@@ -37,11 +37,11 @@ To compress well-trained model by quantization, please run
 #### Evaluation
 To evaluate trained models and quantized models, please run
 > \$ cd eval
-> \$ python eval_original.py  \# evaluate original model
-> \$ python eval_quantized.py  \# evaluate quantized model
-> \$ python eval_quantized_fusion_LR.py  \# evaluate two fusioned models by logistic regression strategy
-> \$ python eval_quantized_fusion_AVG.py  \# evaluate two fusioned models by average strategy
-
+> \$ python eval_original.py  \# evaluate original model  
+> \$ python eval_quantized.py  \# evaluate quantized model  
+> \$ python eval_quantized_fusion_LR.py  \# evaluate two fusioned models by logistic regression strategy  
+> \$ python eval_quantized_fusion_AVG.py  \# evaluate two fusioned models by average strategy   
+ 
 
 ## Pre-trained models
 Pre-trained models are provided in `./pretrained_models`, including
