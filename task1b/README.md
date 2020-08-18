@@ -1,9 +1,9 @@
 # DCASE2020 task 1b -- Low-Complexity Acoustic Scene Classification
 
 ## Introduction
-In Task 1b, the main goal is to keep the system size within **500 Kilobytes (KB)**. A post-training quantization method, which is provided by [Tensorflow2](https://www.tensorflow.org/tutorials), is used to compress our neural models. Quantization not only reduces the model size but also improves hardware accelerator latency with little degradation in final classification accuracy.   
+In Task 1b, the main goal is to keep the system size within **500 Kilobytes (KB)**. 
 
-In our submission, we used **Dynamic Range Quantization (DRQ)**. In DRQ, neural weights are quantized from floating-point to integer having a 8-bit precision. Leveraging DRQ, we thus transferred our neural architectures from a 32-bit TensorFlow format to a 8-bit TensorFlow-lite format, which compresses the model size to about 1/8 of its original size. According to our experimental evidence, such a compression method resulted in a minor ASC classification drop.
+In our submission ([Technical Report](https://arxiv.org/abs/2007.08389)), a post-training quantization method, which is provided by [Tensorflow2](https://www.tensorflow.org/tutorials), is used to compress our neural models. We used **Dynamic Range Quantization (DRQ)**, in which neural weights are quantized from floating-point to integer having a 8-bit precision. Quantization not only reduces the model size but also improves hardware accelerator latency with little degradation in final classification accuracy. Leveraging DRQ, we thus transferred our neural architectures from a 32-bit TensorFlow format to a 8-bit TensorFlow-lite format, which compresses the model size to about 1/8 of its original size. According to our experimental evidence, such a compression method resulted in a minor ASC classification drop.
 
 
 ## Experimental results 
@@ -20,7 +20,7 @@ Tested on [DCASE 2020 task 1b development data set](http://dcase.community/chall
 
 ## How to use
 
-#### Training models
+#### Model training
 To train Mobnet, please run
 > \$ cd train  
 > \$ python train_mobnet.py  
