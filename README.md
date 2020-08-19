@@ -1,9 +1,9 @@
 # DCASE2020 Task1
-[Task1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) | [Task1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) | [Arxiv](https://arxiv.org/abs/2007.08389)
+[Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2007.08389)
 
 
 ## Introduction
-This is an implementation of DCASE 2020 [Task 1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) and [Task 1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020.  [Technical Report](https://arxiv.org/abs/2007.08389).
+This is an implementation of [DCASE 2020 Task 1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) and [DCASE 2020 Task 1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020.  [Technical Report](https://arxiv.org/abs/2007.08389).
 
 We sincerely thank all the team members and advisors from [Georgia Tech ECE](https://chl.ece.gatech.edu/), [Tencent Media Lab](https://avlab.qq.com/#/index), [USTC](http://staff.ustc.edu.cn/~jundu/), and [Univeristy of Enna](https://www.unikore.it/index.php/it/ingegneria-informatica-persone/docenti-del-corso/itemlist/category/1589-siniscalchi).
 
