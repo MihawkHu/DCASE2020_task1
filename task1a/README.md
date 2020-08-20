@@ -1,4 +1,4 @@
-# DCASE2020_task1 
+# DCASE2020 task 1a -- Acoustic Scene Classification with Multiple Devices
 
 ## Introduction
 
