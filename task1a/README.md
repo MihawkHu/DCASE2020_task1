@@ -120,4 +120,5 @@ Per-class val acc:  [0.741 0.943 0.855 0.862 0.949 0.673 0.808 0.626 0.909 0.822
 
 ```bash
 conda env create -f environment.yml
+conda activate d20-keras
 ```
