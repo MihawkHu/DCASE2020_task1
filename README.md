@@ -61,4 +61,17 @@ If this work helps or has been used in your research, please consider to cite th
 ```
 
 ## Acknowledgements
-Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). 
+Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1)[1] and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
+
+Also, see the related work from the [1].
+
+```bib
+@inproceedings{mcdonnell2020acoustic,
+  title={Acoustic scene classification using deep residual networks with late fusion of separated high and low frequency paths},
+  author={McDonnell, Mark D and Gao, Wei},
+  booktitle={ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={141--145},
+  year={2020},
+  organization={IEEE}
+}
+```
