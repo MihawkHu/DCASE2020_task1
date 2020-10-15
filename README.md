@@ -61,4 +61,4 @@ If this work helps or has been used in your research, please consider to cite th
 ```
 
 ## Acknowledgements
-Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1)[1] and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
+Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
