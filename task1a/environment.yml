@@ -1,4 +1,4 @@
-name: d19-keras
+name: d20-keras
 channels:
   - conda-forge
   - anaconda
@@ -148,5 +148,5 @@ dependencies:
     - numba==0.48.0
     - resampy==0.2.2
     - scikit-learn==0.22.1
-prefix: /nethome/cyang405/anaconda3/envs/d19-keras
+prefix: ## $your_user/anaconda3/envs/d20-keras
 
