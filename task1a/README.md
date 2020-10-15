@@ -116,4 +116,8 @@ Class names: ['airport' 'bus' 'metro' 'metro_station' 'park' 'public_square'
 Per-class val acc:  [0.741 0.943 0.855 0.862 0.949 0.673 0.808 0.626 0.909 0.822  
 ```
 
- 
+## Conda Setup (Environment-Dependent; not 100% Gauranteed)
+
+```bash
+conda env create -f environment.yml
+```
