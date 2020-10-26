@@ -48,3 +48,16 @@ Pre-trained models are provided in `./pretrained_models`, including
 * Mobnet (before and after quantization)
 * small-FCNN (before and after quantization)
  
+ 
+## Environment 
+
+- Note the dynamic ranging quantization currently support tensorflow 2.3. Please update the tensorflow version as below.
+
+
+```shell
+ pip uninstall -y tensorflow
+ pip install -q tf-nightly
+ pip install -q tensorflow-model-optimization
+```
+
+Please also check the [official document](https://www.tensorflow.org/model_optimization/guide/quantization/training_example) for a latest version updates.
