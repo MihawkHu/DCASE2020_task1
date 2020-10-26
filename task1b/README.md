@@ -51,7 +51,7 @@ Pre-trained models are provided in `./pretrained_models`, including
  
 ## Environment 
 
-- Note the dynamic ranging quantization currently support tensorflow 2.3. Please update the tensorflow version as below.
+- Note the post-training dynamic range quantization currently supports tensorflow 2.3. Please update the version of tensorflow as below.
 
 
 ```shell
