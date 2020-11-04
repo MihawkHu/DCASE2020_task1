@@ -124,3 +124,12 @@ Per-class val acc:  [0.741 0.943 0.855 0.862 0.949 0.673 0.808 0.626 0.909 0.822
 conda env create -f environment.yml
 conda activate d20-keras
 ```
+
+## FAQ
+
+1. Is `data augmentation` important to reproduce the results in the `DCASE 2020 Task 1-a` evaluation set?
+
+- Yes, we conducted several experiments and architecture-wise studies (refer to our technical report) and found out that it is easy to be overfitting with a major part of the evaluation subset. 
+
+If you have challenges to access sufficient resources for training with large augmentation data, we also provide pre-trained models in this repo for future studies to the community.
+
