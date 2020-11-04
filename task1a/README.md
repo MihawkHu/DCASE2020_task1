@@ -131,5 +131,5 @@ conda activate d20-keras
 
 - Yes, we conducted several experiments and architecture-wise studies (refer to our [technical report](https://arxiv.org/abs/2011.01447)) and found out that it is easy to be overfitting with a major part of the evaluation subset. The major reason is that part of the evaluation dataset is unseen in the training set, which is reasonable for a real-world scenario. 
 
-If you have challenges to access sufficient resources for training with large augmentation data, we also provide [pre-trained models](https://github.com/MihawkHu/DCASE2020_task1/blob/master/task1a/README.md#pre-trained-models) in this repo for future studies to the community.
+If you have challenges to access sufficient resources for training models with large augmentation data, we also provide [pre-trained models](https://github.com/MihawkHu/DCASE2020_task1/blob/master/task1a/README.md#pre-trained-models) in this repo for future studies to the community.
 
