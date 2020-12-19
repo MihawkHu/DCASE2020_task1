@@ -8,6 +8,56 @@ sys.path.append("..")
 from funcs import *
 from utils import *
 
+class LR_WarmRestart(keras.callbacks.Callback):
+    def __init__(self,nbatch,initial_lr,min_lr,epochs_restart,Tmult):
+        self.initial_lr = initial_lr
+        self.min_lr = min_lr
+        self.epochs_restart = epochs_restart
+        self.nbatch = nbatch
+        self.currentEP=0
+        self.startEP=0
+        self.Tmult=Tmult
+        
+    def on_epoch_begin(self, epoch, logs={}):
+        if epoch+1<self.epochs_restart[0]:
+            self.currentEP = epoch
+        else:
+            self.currentEP = epoch+1
+            
+        if np.isin(self.currentEP,self.epochs_restart):
+            self.startEP=self.currentEP
+            self.Tmult=2*self.Tmult
+        
+    def on_epoch_end(self, epochs, logs={}):
+        lr = K.get_value(self.model.optimizer.lr)
+        print ('\nLR:{:.6f}'.format(lr))
+    
+    def on_batch_begin(self, batch, logs={}):
+        pts = self.currentEP + batch/self.nbatch - self.startEP
+        decay = 1+np.cos(pts/self.Tmult*np.pi)
+        lr = self.min_lr+0.5*(self.initial_lr-self.min_lr)*decay
+        K.set_value(self.model.optimizer.lr,lr)
+
+        
+class threadsafe_iter:
+    def __init__(self, it):
+        self.it = it
+        self.lock = threading.Lock()
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        with self.lock:
+            return self.it.__next__()
+        
+        
+def threadsafe_generator(f):
+    def g(*a, **kw):
+        return threadsafe_iter(f(*a, **kw))
+    return g
+
+
 
 class Generator_balanceclass_timefreqmask_nocropping_splitted():
     def __init__(self, feat_path, train_csv, total_csv, experiments, feat_dim, batch_size=32, alpha=0.4, shuffle=True, splitted_num=4): 
@@ -109,55 +159,5 @@ class Generator_balanceclass_timefreqmask_nocropping_splitted():
 
         return X, y
 
-
-
-class LR_WarmRestart(keras.callbacks.Callback):
-    def __init__(self,nbatch,initial_lr,min_lr,epochs_restart,Tmult):
-        self.initial_lr = initial_lr
-        self.min_lr = min_lr
-        self.epochs_restart = epochs_restart
-        self.nbatch = nbatch
-        self.currentEP=0
-        self.startEP=0
-        self.Tmult=Tmult
-        
-    def on_epoch_begin(self, epoch, logs={}):
-        if epoch+1<self.epochs_restart[0]:
-            self.currentEP = epoch
-        else:
-            self.currentEP = epoch+1
-            
-        if np.isin(self.currentEP,self.epochs_restart):
-            self.startEP=self.currentEP
-            self.Tmult=2*self.Tmult
-        
-    def on_epoch_end(self, epochs, logs={}):
-        lr = K.get_value(self.model.optimizer.lr)
-        print ('\nLR:{:.6f}'.format(lr))
-    
-    def on_batch_begin(self, batch, logs={}):
-        pts = self.currentEP + batch/self.nbatch - self.startEP
-        decay = 1+np.cos(pts/self.Tmult*np.pi)
-        lr = self.min_lr+0.5*(self.initial_lr-self.min_lr)*decay
-        K.set_value(self.model.optimizer.lr,lr)
-
-        
-class threadsafe_iter:
-    def __init__(self, it):
-        self.it = it
-        self.lock = threading.Lock()
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        with self.lock:
-            return self.it.__next__()
-        
-        
-def threadsafe_generator(f):
-    def g(*a, **kw):
-        return threadsafe_iter(f(*a, **kw))
-    return g
 
 
