@@ -3,7 +3,7 @@ from keras.layers import Conv2D, BatchNormalization, Activation, GlobalAveragePo
 from keras.layers import Input, Dropout, ZeroPadding2D
 from keras.regularizers import l2
 from keras.models import Model
-from attention_layer import spatial_attention, channel_attention, cbam_block, secondary_attention
+from attention_layer import channel_attention
 from keras import backend as K
 
 #relu6
