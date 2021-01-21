@@ -52,6 +52,7 @@ for i in range(len(wavpath)):
 
     feature_data = {'feat_data': feat_data,}
 
+    # use MARDY as example, please use different name for different generated reverberation data
     cur_file_name = output_path + wavpath[i][5:-4] + '_mardy_drc.' + feature_type
     pickle.dump(feature_data, open(cur_file_name, 'wb'), protocol=pickle.HIGHEST_PROTOCOL)
         

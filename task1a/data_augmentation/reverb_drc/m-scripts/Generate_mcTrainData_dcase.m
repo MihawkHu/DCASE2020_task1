@@ -26,9 +26,8 @@ end
 display(['Name of directory for original DCASE: ',DCASE_dir_name])
 display(['Name of directory to save generated multi-condition training data: ',save_dir])
 
-
-% List of WSJ speech data
-flist1='etc/audio_dcase.lst';
+% list of training data from device A
+flist1='evaluation_setup/fold1_train_a.lst';
 
 %
 % List of RIRs
