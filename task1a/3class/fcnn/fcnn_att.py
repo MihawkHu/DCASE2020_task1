@@ -3,7 +3,7 @@ from keras.layers import Conv2D, BatchNormalization, Activation, GlobalAveragePo
 from keras.layers import Input, Dropout, ZeroPadding2D
 from keras.regularizers import l2
 from keras.models import Model
-from attention_layer import channel_attentionn
+from attention_layer import channel_attention
 from keras import backend as K
 
 def resnet_layer(inputs,num_filters=16,kernel_size=3,strides=1,learn_bn = True,wd=1e-4,use_relu=True):
