@@ -25,7 +25,7 @@ session = InteractiveSession(config=config)
 
 # Please put your csv file for train and validation here.
 # If you dont generate the extra augmented data, please use 
-# ../evaluation_setup/fold1_train_3class.csv and delete the aug_csv part
+# ../evaluation_setup/fold1_train.csv and delete the aug_csv part
 train_csv = 'evaluation_setup/fold1_train_full.csv'
 val_csv = 'evaluation_setup/fold1_evaluate.csv'
 aug_csv = 'evaluation_setup/fold1_train_a_2003.csv'
