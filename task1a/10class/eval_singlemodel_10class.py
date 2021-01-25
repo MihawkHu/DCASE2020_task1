@@ -30,8 +30,8 @@ session = InteractiveSession(config=config)
 
 
 #Task 1a dev validation set
-val_csv = '/dockerdata/zhuhongning/dcase2020/evaluation_setup/fold1_evaluate.csv'
-feat_path = '/dockerdata/rainiejjli/ft_local/dcase_task1_team-master/baseline/features/logmel128_scaled/'
+val_csv = 'evaluation_setup/fold1_evaluate.csv'
+feat_path = 'features/logmel128_scaled/'
 
 # put the trained model path here
 model_path = 'pretrained_models/10class-resnet-model-0.7458.hdf5'
