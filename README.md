@@ -49,7 +49,7 @@ Please refer to [`./other_TF2_format_pretrained/`](https://github.com/MihawkHu/D
 
 ## Reference
 
-If this work helps or has been used in your research, please consider to cite the paper below. Thank you!
+If this work helps or has been used in your research, please consider to cite the papers below. Thank you!
 
 ```bib
 @article{hu2020two,
