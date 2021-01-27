@@ -42,8 +42,9 @@ Please refer to the `README.md` in `./task1a/` for detailed instructions.
 Please refer to the `README.md` in `./task1b/` for detailed instructions.
 
 ### Pre-trained models
-Pre-trained models are provided in `./task1a/3class/pretrained_models/`, `task1a/10class/pretrained_models/`, and `./task1b/pretrained_models/`. You can get reported results by directly evaluate pre-trained models.
+- Pre-trained keras models are provided in `./task1a/3class/pretrained_models/`, `task1a/10class/pretrained_models/`, and `./task1b/pretrained_models/`. You can get reported results by directly evaluate pre-trained models.
 
+- tensorflow >= 2.0 pretrained models. We also provide some pretrained DCASE task1 models in tensorflow >= 2.0 format. Please refer to `[./other_TF2_format_pretrained/](https://github.com/MihawkHu/DCASE2020_task1/tree/master/other_TF2_format_pretrained)`
 
 ## Reference
 
