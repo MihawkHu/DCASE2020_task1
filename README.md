@@ -1,5 +1,5 @@
 # DCASE2020 Task1
-[Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2011.01447)
+[Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2011.01447) | <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> | <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />
 
 
 ## Introduction
