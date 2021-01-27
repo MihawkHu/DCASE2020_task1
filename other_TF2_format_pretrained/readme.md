@@ -2,11 +2,11 @@
 
 <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" /> 
 
-This is a pretrained model collection in TF >= 2.0 format.
+This is a collection of pretrained models in TF >= 2.0 format.
 
-You easy check the check the pretrained models by.
+You easy check the pretrained models by running the commands below: 
 
-- task 1-a (10 classes)
+- DCASE 2020 task 1-a (10 classes)
 
 ### FCNN-Attention
 
@@ -20,7 +20,7 @@ python fcnn_att.py
 python resnet.py
 ```
 
-- task 1-b (3 classes)
+- DCASE 2020 task 1-b (3 classes)
 
 ### Mobile V2
 
