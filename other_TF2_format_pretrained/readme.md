@@ -1,6 +1,6 @@
 ## Tensorflow >= 2.0 pretrained models
 
-This is a pretrained model collection in TF >= 2.0 format.
+<img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />This is a pretrained model collection in TF >= 2.0 format.
 
 You easy check the check the pretrained models by.
 
