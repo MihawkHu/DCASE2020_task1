@@ -4,7 +4,7 @@
 
 This is a collection of pretrained models in TF >= 2.0 format.
 
-You easy check the pretrained models by running the commands below: 
+You may easy check the pretrained models by running the commands below: 
 
 - DCASE 2020 task 1-a (10 classes)
 
