@@ -28,7 +28,7 @@ python resnet.py
 python mobnet.py 
 ```
 
-Note: If this work helps or has been used in your research, please consider to cite the papers below. Thank you!
+Note: If this work helps or has been used in your research, please consider to cite both papers below. Thank you!
 
 ```bib
 @article{hu2020two,
