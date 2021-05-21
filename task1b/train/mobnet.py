@@ -145,7 +145,3 @@ def model_mobnet(num_classes, input_shape=[128, None, 2], num_filters=24, wd=1e-
 
     model = Model(inputs=inputs, outputs=OutputPath)
     return model
-
-model =  model_mobnet(3, input_shape=[128, 461, 3*2], num_filters=24, wd=1e-3)
-model.load_weights("")
-model.summary()
