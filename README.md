@@ -1,7 +1,9 @@
 # DCASE2020 Task1
 [Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2011.01447) | <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> | <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />
 
-**New** This work has been accepted to IEEE ICASSP 2021. 
+**New** We add a list on recent related works containing discussion with this open resource ASC studies. Check the recent works section [here]() and welcome to open an issue for adding related reference with the open resouce studies.   
+
+This work has been accepted to IEEE ICASSP 2021! (Session Time: Friday, 11 June, 13:00 - 13:45 presented by Hu Hu)
 
 ## Introduction
 This is an implementation of [DCASE 2020 Task 1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) and [DCASE 2020 Task 1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020.  [Technical Report](https://arxiv.org/abs/2007.08389).
@@ -70,5 +72,26 @@ If this work helps or has been used in your research, please consider to cite bo
 }
 ```
 
+### More Recent Related Works
+
+Noted We simply generated the lists from [reference tools](https://scholar.google.com/scholar?cites=13758924980582482070&as_sdt=5,38&sciodt=0,38&hl=en). Feel free to pin us if you would like to share your work here. 
+
+- Related to `Hu et al. "A Two-Stage Approach to Device-Robust Acoustic Scene Classification." ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2021.`
+
+| Title      |   Author and Paper Link | 
+| :---         |      :----:   | 
+| Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, Hye-jin, et al. 2021](https://arxiv.org/pdf/2104.07213.pdf) | 
+|  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al. 2021](https://arxiv.org/pdf/2105.10340v1.pdf)   | 
+
+- Related to `Hu, Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`
+
+| Title      |   Author and Paper Link | 
+| :---         |      :----:   | 
+| Acoustic scene classification in dcase 2020 challenge: generalization across devices and low complexity solutions    | [T Heittola, et al. 2020](https://arxiv.org/pdf/2005.14623.pdf) | 
+| CNN-Based Acoustic Scene Classification System    | [Y Lee t al. 2021](https://www.mdpi.com/2079-9292/10/4/371/pdf) |
+|Relational Teacher Student Learning with Neural Label Embedding for Device Adaptation in Acoustic Scene Classification| [Hu et al. 2020](https://arxiv.org/pdf/2008.00110.pdf) |
+
 ## Acknowledgements
 Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
+
+
