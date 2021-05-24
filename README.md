@@ -81,7 +81,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 | Title      |   Authors & Paper Link | Proc. |
 | :---         |      :----:   |  :---: | 
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, Hye-jin, et al.](https://arxiv.org/pdf/2104.07213.pdf) | Arxiv 2021 |
-|  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al. 2021](https://arxiv.org/pdf/2105.10340v1.pdf)   | Arxiv 2021 |
+|  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al.](https://arxiv.org/pdf/2105.10340v1.pdf)   | Arxiv 2021 |
 
 - Related to `Hu, Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`
 
@@ -91,7 +91,9 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 | CNN-Based Acoustic Scene Classification System    | [Y Lee t al.](https://www.mdpi.com/2079-9292/10/4/371/pdf) | Electronics 2021|
 |Relational Teacher Student Learning with Neural Label Embedding for Device Adaptation in Acoustic Scene Classification| [Hu et al.](https://arxiv.org/pdf/2008.00110.pdf) | Arxiv 2020 |
 |Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes| [H Shim et al.](https://arxiv.org/pdf/2104.07213.pdf) | Arxiv 2021 |
-|A Two-Stage Approach to Device-Robust Acoustic Scene Classification| [Hu et al. 2021](https://ieeexplore.ieee.org/abstract/document/9414835) | ICASSP 2021 |
+|A Two-Stage Approach to Device-Robust Acoustic Scene Classification| [Hu et al.](https://ieeexplore.ieee.org/abstract/document/9414835) | ICASSP 2021 |
+|Slow-Fast Auditory Streams for Audio Recognition| [E Kazakos et al.](https://ieeexplore.ieee.org/abstract/document/9413376/?casa_token=4NeKa18wFhgAAAAA:St-kJhc7IVINo6_OTrG1GzIFZfJqzdTDjsjNr4DSquSy0iha-sPNA4sGcq7x1376t4zWJ4z9Ma8) | ICASSP 2021|
+
 
 ## Acknowledgements
 Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
