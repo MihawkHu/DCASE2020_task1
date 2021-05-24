@@ -79,14 +79,14 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 - Related to `Hu et al. "A Two-Stage Approach to Device-Robust Acoustic Scene Classification." ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2021.`
 
 | Title      |   Author and Paper Link | Proc. |
-| :---         |      :----:   | 
+| :---         |      :----:   |  :---: | 
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, Hye-jin, et al.](https://arxiv.org/pdf/2104.07213.pdf) | Arxiv 2021 |
 |  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al. 2021](https://arxiv.org/pdf/2105.10340v1.pdf)   | Arxiv 2021 |
 
 - Related to `Hu, Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`
 
 | Title      |   Author and Paper Link | Proc. |
-| :---         |      :----:   | 
+| :---         |      :----:   |  :---: | 
 | Acoustic scene classification in dcase 2020 challenge: generalization across devices and low complexity solutions    | [T Heittola, et al. ](https://arxiv.org/pdf/2005.14623.pdf) | DCASE 2020|
 | CNN-Based Acoustic Scene Classification System    | [Y Lee t al.](https://www.mdpi.com/2079-9292/10/4/371/pdf) | Electronics 2021|
 |Relational Teacher Student Learning with Neural Label Embedding for Device Adaptation in Acoustic Scene Classification| [Hu et al.](https://arxiv.org/pdf/2008.00110.pdf) | Arxiv 2020 |
