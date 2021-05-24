@@ -76,14 +76,14 @@ If this work helps or has been used in your research, please consider to cite bo
 
 Noted We simply generated the lists from [reference tools](https://scholar.google.com/scholar?cites=13758924980582482070&as_sdt=5,38&sciodt=0,38&hl=en). Feel free to pin us if you would like to share your work here. 
 
-- Related to `Hu et al. "A Two-Stage Approach to Device-Robust Acoustic Scene Classification." ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). IEEE, 2021.`
+- Related to `Hu et al. "A Two-Stage Approach to Device-Robust Acoustic Scene Classification." ICASSP (2021)`.
 
 | Title      |   Authors & Paper Link | Proc. |
 | :---         |      :----:   |  :---: | 
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, Hye-jin, et al.](https://arxiv.org/pdf/2104.07213) | Arxiv 2021 |
 |  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al.](https://arxiv.org/pdf/2105.10340v1)   | Arxiv 2021 |
 
-- Related to `Hu, Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`
+- Related to `Hu, Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`.
 
 | Title      |   Authors & Paper Link | Proc. |
 | :---         |      :----:   |  :---: | 
