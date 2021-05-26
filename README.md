@@ -81,7 +81,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 | Title      |   Authors & Paper Link | Proc. |
 | :---         |      :----:   |  :---: | 
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, H., et al.](https://arxiv.org/pdf/2104.07213) | Arxiv 2021 |
-|  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [Dongchao Yang, et al.](https://arxiv.org/pdf/2105.10340v1)   | Arxiv 2021 |
+|  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [D. Yang, et al.](https://arxiv.org/pdf/2105.10340v1)   | Arxiv 2021 |
 
 - Related to `Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`.
 
