@@ -1,7 +1,7 @@
 # DCASE2020 Task1
 [Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2011.01447) | <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> | <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />
 
-**New** We add a [**list**](https://github.com/MihawkHu/DCASE2020_task1/blob/master/README.md#more-recent-related-works) on recent **related ASC works** containing discussion with this open resource ASC studies. Welcome to open an issue for adding related reference with the open resouce studies or sharing your work.   
+**New** We add a [**list**](https://github.com/MihawkHu/DCASE2020_task1/blob/master/README.md#more-recent-related-works) on recent **related ASC works** containing discussion with this open resource ASC studies. Welcome to open an issue for adding related reference with the open resouce studies or just sharing your work.   
 
 This work has been accepted to IEEE ICASSP 2021! (Session Time: Friday, 11 June, 13:00 - 13:45 presented by Hu Hu)
 
