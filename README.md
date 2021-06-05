@@ -87,6 +87,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 
 | Title      |   Authors & Paper Link | Proc. |
 | :---         |      :----:   |  :---: | 
+| Multi-Scale Temporal Convolution Network for Classroom Voice Detection    | [L Ma, et al. ](https://arxiv.org/pdf/2105.14717.pdf) | Arxiv 2021|
 | Acoustic scene classification in dcase 2020 challenge: generalization across devices and low complexity solutions    | [T Heittola, et al. ](https://arxiv.org/pdf/2005.14623) | DCASE 2020|
 | CNN-Based Acoustic Scene Classification System    | [Y Lee t al.](https://www.mdpi.com/2079-9292/10/4/371/pdf) | Electronics 2021|
 |Relational Teacher Student Learning with Neural Label Embedding for Device Adaptation in Acoustic Scene Classification| [Hu et al.](https://arxiv.org/pdf/2008.00110) | Arxiv 2020 |
