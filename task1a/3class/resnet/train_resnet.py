@@ -26,17 +26,23 @@ session = InteractiveSession(config=config)
 # Notice that it's for 3-class classification, so it's different with 
 # the original 10-class one.
 # If you dont generate the extra augmented data, please use 
-# ../evaluation_setup/fold1_train_3class.csv
-train_csv = '../evaluation_setup/fold1_train_full_3class.csv'
-val_csv = '../evaluation_setup/fold1_evaluate_3class.csv'
+# ../evaluation_setup/fold1_train_3class.csv and delete the aug_csv part
+train_csv = 'evaluation_setup/fold1_train_all_3class.csv'
+val_csv = 'fold1_evaluate_3class.csv'
+#aug_csv = 'fold1_trainall_train_eval_a_onlyreverb_speccorr_3class.csv'
 
 # please generate logmel features using ../extr_feat_2020_nodelta_scaled.py
 # at first.
 feat_path = 'features/logmel128_scaled_full/'
-experiments = 'exp_2020_resnet_scaled_traincsv_3class_full/'
+#aug_path = 'features/logmel128_reverb_scaled/' # augmented with reverberation data
+experiments = 'exp_2020_resnet_channelattention_scaled_specaugment_timefreqmask_speccorr_together_nowd_alldata_3class/'
 
 if not os.path.exists(experiments):
     os.makedirs(experiments)
+
+
+#train_aug_csv = generate_train_aug_csv(train_csv, aug_csv, feat_path, aug_path, experiments)
+train_aug_csv = train_csv
 
 num_audio_channels = 1
 num_freq_bin = 128
@@ -46,7 +52,7 @@ batch_size = 32
 num_epochs = 126
 mixup_alpha = 0.4
 crop_length = 400
-sample_num = len(open(train_csv, 'r').readlines()) - 1
+sample_num = len(open(train_aug_csv, 'r').readlines()) - 1
 
 # compute delta and delta delta for validation data
 data_val, y_val = load_data_2020(feat_path, val_csv, num_freq_bin, 'logmel')
@@ -76,7 +82,7 @@ callbacks = [lr_scheduler, checkpoint]
 
 
 # Due to the memory limitation, in the training stage we split the training data
-train_data_generator = Generator_withdelta_splitted(feat_path, train_csv, num_freq_bin, 
+train_data_generator = Generator_withdelta_splitted(feat_path, train_aug_csv, num_freq_bin, 
                               batch_size=batch_size,
                               alpha=mixup_alpha,
                               crop_length=crop_length, splitted_num=15)()

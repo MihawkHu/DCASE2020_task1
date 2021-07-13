@@ -28,21 +28,23 @@ session = InteractiveSession(config=config)
 # the original 10-class one.
 # If you dont generate the extra augmented data, please use 
 # ../evaluation_setup/fold1_train_3class.csv and delete the aug_csv part
-train_csv = 'fold1_5aug_full_3class.csv'
+train_csv = 'evaluation_setup/fold1_train_all_3class.csv'
 val_csv = 'fold1_evaluate_3class.csv'
-aug_csv = 'fold1_trainall_train_eval_a_onlyreverb_speccorr_3class.csv'
+#aug_csv = 'fold1_trainall_train_eval_a_onlyreverb_speccorr_3class.csv'
 
 # please generate logmel features using ../extr_feat_2020_nodelta_scaled.py
 # at first.
 feat_path = 'features/logmel128_scaled_full/'
-aug_path = 'features/logmel128_reverb_scaled/' # augmented with reverberation data
+#aug_path = 'features/logmel128_reverb_scaled/' # augmented with reverberation data
 experiments = 'exp_2020_fcnn_channelattention_scaled_specaugment_timefreqmask_speccorr_together_nowd_alldata_3class/'
 
 if not os.path.exists(experiments):
     os.makedirs(experiments)
 
 
-train_aug_csv = generate_train_aug_csv(train_csv, aug_csv, feat_path, aug_path, experiments)
+#train_aug_csv = generate_train_aug_csv(train_csv, aug_csv, feat_path, aug_path, experiments)
+train_aug_csv = train_csv
+
 num_audio_channels = 1
 num_freq_bin = 128
 num_classes = 3
