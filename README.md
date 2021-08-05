@@ -74,7 +74,7 @@ If this work helps or has been used in your research, please consider to cite bo
 
 ### More Recent Related Works
 
-Noted We simply generated the lists from [reference tools](https://scholar.google.com/scholar?cites=13758924980582482070&as_sdt=5,38&sciodt=0,38&hl=en). Feel free to pin us if you would like to share your work here. 
+Noted We simply generated the lists from [reference tools](https://scholar.google.com/scholar?cites=9189018070404450101&as_sdt=5,48&sciodt=0,48&). Feel free to pin us if you would like to share your work here. 
 
 - Related to `Hu et al. "A Two-Stage Approach to Device-Robust Acoustic Scene Classification." ICASSP (2021)`.
 
@@ -82,6 +82,8 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 | :---         |      :----:   |  :---: | 
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, H., et al.](https://arxiv.org/pdf/2104.07213) | Arxiv 2021 |
 |  Unsupervised Multi-Target Domain Adaptation for Acoustic Scene Classification  | [D. Yang, et al.](https://arxiv.org/pdf/2105.10340v1)   | Arxiv 2021 |
+|  A Lottery Ticket Hypothesis Framework for Low-Complexity Device-Robust Neural Acoustic Scene Classification  | [C. Yang, et al.](https://arxiv.org/pdf/2107.01461.pdf)   | DCASE 2021 |
+|  CLOVA SUBMISSION FOR THE DCASE 2021 CHALLENGE: ACOUSTIC SCENECLASSIFICATION USING LIGHT ARCHITECTURES AND DEVICE AUGMENTATION  | [Heo H., et al.](http://dcase.community/documents/challenge2021/technical_reports/DCASE2021_Heo_30_t1.pdf)   | DCASE 2021 |
 
 - Related to `Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`.
 
