@@ -99,7 +99,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 |Accelerating On-Device Learning with Layer-Wise Processor Selection Method on Unified Memory| [Ha, D. et al.](https://arxiv.org/pdf/2104.07213) |Sensors 2021|
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, H., et al.](https://arxiv.org/pdf/2104.07213) | Arxiv 2021 |
 |Cross-Modal Spectrum Transformation Network for Acoustic Scene Classification| [Y. Liu et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414779&casa_token=5GWzcjEV9ZYAAAAA:g1wIXMB0lbJsNpJr1DBY_xXPKqmdmIY6Z51cu7B_48gLsutt1h7xwFZqd7VVpio_9BP3RFdDgMI)|ICASSP 2021|
-
+|A Multi-Head Relevance Weighting Framework For Learning Raw Waveform Audio Representations| [D Dutta et al.](https://arxiv.org/pdf/2107.14793.pdf)| WASPAA 21 |
 
 ## Acknowledgements
 Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
