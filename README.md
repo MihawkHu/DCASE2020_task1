@@ -85,7 +85,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 |  A Lottery Ticket Hypothesis Framework for Low-Complexity Device-Robust Neural Acoustic Scene Classification  | [C. Yang, et al.](https://arxiv.org/pdf/2107.01461.pdf)   | DCASE 2021 |
 |  CLOVA SUBMISSION FOR THE DCASE 2021 CHALLENGE: ACOUSTIC SCENECLASSIFICATION USING LIGHT ARCHITECTURES AND DEVICE AUGMENTATION  | [Heo H., et al.](http://dcase.community/documents/challenge2021/technical_reports/DCASE2021_Heo_30_t1.pdf)   | DCASE 2021 |
 |A Multi-Head Relevance Weighting Framework For Learning Raw Waveform Audio Representations| [D Dutta et al.](https://arxiv.org/pdf/2107.14793.pdf)| WASPAA 21 |
-| A MODEL ENSEMBLE APPROACH FOR AUDIO-VISUAL SCENE CLASSIFICATION | [Q. Wang](https://dcase.community/documents/challenge2021/technical_reports/DCASE2021_Du_124_t1.pdf) | DCASE 2021 |
+| A MODEL ENSEMBLE APPROACH FOR AUDIO-VISUAL SCENE CLASSIFICATION | [Q. Wang, et al.](https://dcase.community/documents/challenge2021/technical_reports/DCASE2021_Du_124_t1.pdf) | DCASE 2021 |
 
 
 - Related to `Hu, et al. "Device-robust acoustic scene classification based on two-stage categorization and data augmentation." DCASE (2020)`.
