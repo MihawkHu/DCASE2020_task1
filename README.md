@@ -5,7 +5,7 @@
 
 This work has been accepted to IEEE ICASSP 2021! (Session Time: Friday, 11 June, 13:00 - 13:45 presented by Hu Hu)
 
-- 2021 Sep., DCASE 2021 - [Acoustic Lottery Code](https://github.com/MihawkHu/Acoustic_Lottery) is here!
+- For 125KB moddel, our DCASE 2021 system - [Acoustic Lottery Code](https://github.com/MihawkHu/Acoustic_Lottery) is here!
 
 ## Introduction
 This is an implementation of [DCASE 2020 Task 1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) and [DCASE 2020 Task 1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020.  [Technical Report](https://arxiv.org/abs/2007.08389).
