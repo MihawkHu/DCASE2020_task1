@@ -103,6 +103,9 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 | Attentive Max Feature Map for Acoustic Scene Classification with Joint Learning considering the Abstraction of Classes    | [Shim, H., et al.](https://arxiv.org/pdf/2104.07213) | Arxiv 2021 |
 |Cross-Modal Spectrum Transformation Network for Acoustic Scene Classification| [Y. Liu et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9414779&casa_token=5GWzcjEV9ZYAAAAA:g1wIXMB0lbJsNpJr1DBY_xXPKqmdmIY6Z51cu7B_48gLsutt1h7xwFZqd7VVpio_9BP3RFdDgMI)|ICASSP 2021|
 |A Multi-Head Relevance Weighting Framework For Learning Raw Waveform Audio Representations| [D Dutta et al.](https://arxiv.org/pdf/2107.14793.pdf)| WASPAA 21 |
+|Shallow Convolution-Augmented Transformer with Differentiable Neural Computer for Low-Complexity Classification of Variable-Length Acoustic Scene| [S. Seo et al.](https://www.isca-speech.org/archive/pdfs/interspeech_2021/seo21_interspeech.pdf) | Interspeech 21|
+|Robust Acoustic Scene Classification in the Presence of Active Foreground Speech| [S. Song et al.](https://arxiv.org/pdf/2108.00912.pdf) | Arxiv 21|
+
 
 ## Acknowledgements
 Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
