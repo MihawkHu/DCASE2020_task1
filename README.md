@@ -55,12 +55,15 @@ Please refer to [`./other_TF2_format_pretrained/`](https://github.com/MihawkHu/D
 If this work helps or has been used in your research, please consider to cite both papers below. Thank you!
 
 ```bib
-@article{hu2020two,
-  title={A Two-Stage Approach to Device-Robust Acoustic Scene Classification},
+@inproceedings{hu2021two,
+  title={A two-stage approach to device-robust acoustic scene classification},
   author={Hu, Hu and Yang, Chao-Han Huck and Xia, Xianjun and Bai, Xue and Tang, Xin and Wang, Yajian and Niu, Shutong and Chai, Li and Li, Juanjuan and Zhu, Hongning and others},
-  journal={arXiv preprint arXiv:2011.01447},
-  year={2020}
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={845--849},
+  year={2021},
+  organization={IEEE}
 }
+
 
 @misc{hu2020devicerobust,
     title={Device-Robust Acoustic Scene Classification Based on Two-Stage Categorization and Data Augmentation},
