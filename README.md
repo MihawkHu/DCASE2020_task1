@@ -1,9 +1,11 @@
 # DCASE2020 Task1
-[Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [Arxiv](https://arxiv.org/abs/2011.01447) | <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> | <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />
+[Task1a](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1a) | [Task1b](https://github.com/MihawkHu/DCASE2020_task1/tree/master/task1b) | [dcase paper](https://arxiv.org/abs/2011.01447) | [icassp paper](https://ieeexplore.ieee.org/abstract/document/9414835) | <img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white"/> | <img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" />
 
 **New** We add a [**list**](https://github.com/MihawkHu/DCASE2020_task1/blob/master/README.md#more-recent-related-works) on recent **related ASC works** containing discussion with this open resource ASC studies. Welcome to open an issue for adding related reference with the open resouce studies or just sharing your work.   
 
 This work has been accepted to IEEE ICASSP 2021! (Session Time: Friday, 11 June, 13:00 - 13:45 presented by Hu Hu)
+
+- DCASE 2021 - [Acoustic Lottery Code](https://github.com/MihawkHu/Acoustic_Lottery) is here!
 
 ## Introduction
 This is an implementation of [DCASE 2020 Task 1a](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-a) and [DCASE 2020 Task 1b](http://dcase.community/challenge2020/task-acoustic-scene-classification#subtask-b) on **Acoustic Scene Classification with Multiple Devices**. We attain 2nds for both Task-1a and Task-1b in the official challenge 2020.  [Technical Report](https://arxiv.org/abs/2007.08389).
