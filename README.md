@@ -74,7 +74,7 @@ If this work helps or has been used in your research, please consider to cite bo
     primaryClass={eess.AS}
 }
 ```
-
+<!-- 
 ### More Recent Related Works
 
 Noted We simply generated the lists from [reference tools](https://scholar.google.com/scholar?cites=9189018070404450101&as_sdt=5,48&sciodt=0,48&). Feel free to pin us if you would like to share your work here. 
@@ -107,7 +107,7 @@ Noted We simply generated the lists from [reference tools](https://scholar.googl
 |A Multi-Head Relevance Weighting Framework For Learning Raw Waveform Audio Representations| [D Dutta et al.](https://arxiv.org/pdf/2107.14793.pdf)| WASPAA 21 |
 |Shallow Convolution-Augmented Transformer with Differentiable Neural Computer for Low-Complexity Classification of Variable-Length Acoustic Scene| [S. Seo et al.](https://www.isca-speech.org/archive/pdfs/interspeech_2021/seo21_interspeech.pdf) | Interspeech 21|
 |Robust Acoustic Scene Classification in the Presence of Active Foreground Speech| [S. Song et al.](https://arxiv.org/pdf/2108.00912.pdf) | Arxiv 21|
-
+ -->
 
 ## Acknowledgements
 Codes borrows heavily from [DCASE2019-Task1](https://github.com/McDonnell-Lab/DCASE2019-Task1) and [dcase2020_task1_baseline](https://github.com/toni-heittola/dcase2020_task1_baseline). We appreciate the researchers contributing to this ASC community.
